@@ -1,7 +1,5 @@
 # smithbr/homebrew-tap
 
-Homebrew casks for [smithbr](https://github.com/smithbr)'s tools. GoReleaser updates them on each release.
-
 ```bash
 brew install smithbr/tap/bs
 ```
