@@ -10,25 +10,25 @@ cask "bs" do
     end
   end
 
-  version "0.1.2"
+  version "0.2.0"
 
   on_macos do
     on_arm do
-      sha256 "8560e84c16c35fc4193780a1d693239af5e77e1bee9abd2d90253b0f1b2aae84"
+      sha256 "d652ca8350d97cf0f625f9197eb1420d242bd21cc4153fbfc24626233186d90e"
       url "https://github.com/smithbr/bside/releases/download/v#{version}/bside_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "b3ecc9acb5a2aadd4810c8e7328841644e91e82b7cbe7adbbff42e9542b693d1"
+      sha256 "e5274ce65635a88958aa99303bac7a29f2f16adec1d39368ed746dae86841cb4"
       url "https://github.com/smithbr/bside/releases/download/v#{version}/bside_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "a313ad8efcd1188906fe12315882a7c341548d69152f982d29784ad62bde2f54"
+      sha256 "e72b13cec908fcf650b1cd2fe3318d59a2a68da005ee02391c47067cedd0c44e"
       url "https://github.com/smithbr/bside/releases/download/v#{version}/bside_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "f2f045693ee0cc20d4b90465af59050b0cce541f15c83217d6aeb3cbf64ab32c"
+      sha256 "d9beb3446d4e2527b47bb6ac5a219ef24ebb0ba9626db26ca3dac761b2e5cc86"
       url "https://github.com/smithbr/bside/releases/download/v#{version}/bside_#{version}_linux_amd64.tar.gz"
     end
   end
